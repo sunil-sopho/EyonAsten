@@ -3,7 +3,7 @@
 
 var say = require('say');
 
-say.speak('Hello, how are you today?', (err) => {
+say.speak('Hello, how are you today?',"Cellos",0.75 , (err) => {
     if (err) {
         return console.error(err);
     }
